@@ -1,0 +1,13 @@
+#cd /Users/cbest/Documents/练习工程/github-self/MelodyDance
+#cd /Users/cbest/Documents/练习工程/github-self/MelodyDance/MelodyDance
+#pod install --verbose --no-repo-update
+platform :ios, '10.0'
+
+target ‘MelodyDance’ do
+    use_frameworks!
+    #数据存储解析
+    pod 'BNRCoreDataStack' #https://github.com/bignerdranch/CoreDataStack
+    # pod 'FMDB'
+    
+    # pod 'MelodyDance', '~> 0.0.8'
+end
